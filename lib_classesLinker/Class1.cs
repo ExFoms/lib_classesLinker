@@ -37,10 +37,10 @@ public class ReglamentLinker
     List<Reglament_link> reglament_links = new List<Reglament_link>
         // Таблица/справочник
         {
-            //-------------------------- Схемы АОФОМС
+            //-------------------------- Схемы АОФОМС 
             // Профилактика (диспансеризация)
             new Reglament_link("sim#_*.xml", "si_schema_1_0", "1.0" , typeof(Schemes_AOFOMS.si_schema_1_0.PROFIL), Reglament_owner.AOFOMS, null, null, "Диспансеризация, формирование планов")
-            new Reglament_link("sim#_*.xml", "si_schema_1_1", "1.1" , typeof(Schemes_AOFOMS.si_schema_1_1.PROFIL), Reglament_owner.AOFOMS, null, null, "Диспансеризация, формирование планов")
+            ,new Reglament_link("sim#_*.xml", "si_schema_1_1", "1.1" , typeof(Schemes_AOFOMS.si_schema_1_1.PROFIL), Reglament_owner.AOFOMS, null, null, "Диспансеризация, формирование планов")
             // Диспансерное наблюдение
             //,new Reglament_link("zldnm#_*.xml", "zldn_schema_1_0", "1.0" , typeof(Schemes_AOFOMS.zldn_schema_1_0.ZLDN), Reglament_owner.AOFOMS, null, null, "Диспансерное наблюдение")
             //,new Reglament_link("zldnm#_*.xml", "zldn_schema_2_0", "2.0" , typeof(Schemes_AOFOMS.zldn_schema_2_0.ZLDN), Reglament_owner.AOFOMS, null, null, "Диспансерное наблюдение")
