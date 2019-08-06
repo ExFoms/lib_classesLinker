@@ -56,6 +56,7 @@ public class ReglamentLinker
             ,new Reglament_link("smev13-{*}.xml", "smev13_schema_ROGDZP", "4.0.0", typeof(VS01287v001_TABL00), Reglament_owner.SMEV13, "ROGDZP", "urn://x-artefacts-zags-rogdzp/root/112-23/4.0.0", "Сведения и ЕГР ЗАГС о государственной регистрации рождения")
             ,new Reglament_link("smev13-{*}.xml", "smev13_schema_PERNAMEZP", "4.0.0", typeof(VS01284v001_TABL00), Reglament_owner.SMEV13, "PERNAMEZP", "urn://x-artefacts-zags-pernamezp/root/112-24/4.0.0", "Сведения из ЕГР ЗАГС о государственной регистрации перемены имени")
             ,new Reglament_link("smev13-{*}.xml", "smev13_schema_SNILS", "1.0.1", typeof(VS00648v001_PFR001), Reglament_owner.SMEV13, "SNILS", "http://kvs.pfr.com/snils-by-additionalData/1.0.1", "Сведение «Предоставление страхового номера индивидуального лицевого счёта (СНИЛС) застрахованного лица с учётом дополнительных сведений о месте рождения, документе, удостоверяющем личность» ID вида сведений в ФРГУ")
+            ,new Reglament_link("smev13-{*}.xml", "smev13_schema_INVALID", "1.0.3", typeof(VS00291v004_PFRF01), Reglament_owner.SMEV13, "INVALID", "http://kvs.fri.com/extraction-invalid-data/1.0.3", "Выписка сведений об инвалиде")
         };
     #endregion
 
