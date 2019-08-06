@@ -45,7 +45,7 @@ public class ReglamentLinker
             //,new Reglament_link("zldnm#_*.xml", "zldn_schema_1_0", "1.0" , typeof(Schemes_AOFOMS.zldn_schema_1_0.ZLDN), Reglament_owner.AOFOMS, null, null, "Диспансерное наблюдение")
             //,new Reglament_link("zldnm#_*.xml", "zldn_schema_2_0", "2.0" , typeof(Schemes_AOFOMS.zldn_schema_2_0.ZLDN), Reglament_owner.AOFOMS, null, null, "Диспансерное наблюдение")
             ,new Reglament_link("zldnm#_*.xml", "zldn_schema_2_1", "2.1" , typeof(Schemes_AOFOMS.zldn_schema_2_1.ZLDN), Reglament_owner.AOFOMS, null, null, "Диспансерное наблюдение")
-            //-------------------------- Схемы ФФОМС
+            //-------------------------- Схемы ФФОМС 
             // 	F003. Единый реестр медицинских организаций, осуществляющих деятельность в сфере обязательного медицинского страхования.Реестр МО
             ,new Reglament_link("lib_f003_*.xml", "f003_schema_1_0_1", "1.0.1", typeof(Schemes_FFOMS.f003_schema_1_0_1), Reglament_owner.FFOMS, "F003", null, "F003. Единый реестр медицинских организаций, осуществляющих деятельность в сфере обязательного медицинского страхования.Реестр МО")
             //-------------------------- Схемы СМЭВ
